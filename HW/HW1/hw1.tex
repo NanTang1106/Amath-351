@@ -1,0 +1,90 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb,fullpage,graphicx}
+\usepackage{subfigure}
+\usepackage{empheq}
+\let\hat\widehat
+\let\tilde\widetilde
+
+\author{Nan Tang 1662478}
+\title{AMATH 351 Summer 19 HW01}
+\begin{document}
+\maketitle
+	%% make the title and author
+
+\section*{Q1}
+\subsection*{Q1-a}
+\fbox{\parbox{\textwidth}{%
+\text{a first order, 1-D, autonomous, linear, not homogeneous, constant-coefficient ODE}
+}}
+
+\subsection*{Q1-b}
+\fbox{\parbox{\textwidth}{%
+\text{a first order, 3-D, autonomous, non-linear, NA, NA ODE}
+}}
+
+\subsection*{Q1-c}
+\fbox{\parbox{\textwidth}{%
+\text{an n-th order, 1-D, non-autonomous, linear, homogeneous, not constant coefficient ODE}
+}}
+
+\subsection*{Q1-d}
+\fbox{\parbox{\textwidth}{%
+\text{a first order, 1-D, autonomous,  non-linear, NA, NA ODE}
+}}
+
+\section*{Q2}
+\subsection*{Q2-a}
+\fbox{\parbox{\textwidth}{%
+\begin{align*}
+\frac{d^{10} y}{d t^{10}} = y^2
+\end{align*}
+}}
+
+\subsection*{Q2-b}
+\fbox{\parbox{\textwidth}{%
+\begin{align*}
+\frac{dx}{dt} + \frac{dy}{dt} = x + y
+\end{align*}
+}}
+
+\section*{Q3}
+\subsection*{Q3-a}
+\begin{align*}
+\text{Want to proof }
+\frac{d}{dt} (f + g) = \frac{df}{dt} + \frac{dg}{dt}
+\end{align*}
+
+\fbox{\parbox{\textwidth}{%
+\text{On LHS, by definition of differentiation, }
+\begin{align*}
+\frac{d}{dt} (f + g) &= \lim_{h \to 0} \frac{f(t + h) + g(t + h) - (f(t) + g(t))}{h} \\
+&= \lim_{h \to 0} (\frac{f(t + h) - f(t)}{h} + \frac{g(t + h) - g(t)}{h})
+\end{align*}
+By definition of differentiation, 
+\begin{align*}
+ \lim_{h \to 0} \frac{f(t + h) - f(t)}{h} &= \frac{df}{dt} \\
+ \lim_{h \to 0} \frac{g(t + h) - g(t)}{h} &= \frac{dg}{dt}
+\end{align*}
+This proved that
+\begin{align*}
+\frac{d}{dt} (f + g) &= \frac{df}{dt} + \frac{dg}{dt}
+\end{align*}
+}}
+
+\subsection*{Q3-b}
+\begin{align*}
+\text{Want to proof }
+\frac{d^n}{dt^n} (f + g) = \frac{d^n f}{dt^n} + \frac{d^n g}{dt^n}
+\end{align*}
+
+\fbox{\parbox{\textwidth}{%
+
+}}
+
+
+
+
+
+%%% do not touch anything below
+\end{document}
